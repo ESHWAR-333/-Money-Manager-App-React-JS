@@ -1,3 +1,9 @@
+.historyTableContent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
 .historyContent {
   width: 35px;
   padding-left: 10px;
@@ -12,5 +18,14 @@
   .historyContent {
     font-size: 12px;
     padding-right: 5px;
+  }
+  .deleteImage {
+    width: 19px;
+  }
+  .historyTableContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
   }
 }
