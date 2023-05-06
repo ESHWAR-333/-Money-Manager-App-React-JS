@@ -1,0 +1,15 @@
+.historyContent {
+  width: 35px;
+  padding-left: 10px;
+}
+.deleteButton {
+  background-color: transparent;
+  border: 0px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .historyContent {
+    font-size: 15px;
+  }
+}
