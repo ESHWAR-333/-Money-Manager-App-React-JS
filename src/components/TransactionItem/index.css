@@ -6,7 +6,7 @@
 
 .historyContent {
   width: 35px;
-  padding-left: 10px;
+  text-align: center;
 }
 .deleteButton {
   background-color: transparent;
@@ -17,10 +17,12 @@
 @media screen and (max-width: 768px) {
   .historyContent {
     font-size: 12px;
-    padding-right: 5px;
+    padding-left: 10px;
+    margin-right: 13px;
   }
   .deleteImage {
     width: 19px;
+    margin-left: 12px;
   }
   .historyTableContent {
     display: flex;
